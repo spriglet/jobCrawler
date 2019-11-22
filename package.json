@@ -1,0 +1,32 @@
+{
+  "name": "jobcrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spriglet/jobCrawler.git"
+  },
+  "author": "Micah Bell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spriglet/jobCrawler/issues"
+  },
+  "homepage": "https://github.com/spriglet/jobCrawler#readme",
+  "dependencies": {
+    "cheerio": "*",
+    "express": "*",
+    "mysql2": "^1.6.5",
+    "node-fetch": "^2.6.0",
+    "sequelize": "^5.1.0",
+    "sequelize-cli": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0"
+  }
+}
