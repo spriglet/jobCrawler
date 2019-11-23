@@ -9,7 +9,7 @@ function Application_Controller(){
     let data = req.body;
     console.log('Show All Companies');
     Application.findAll({
-      attributes: ["id", "name","description",
+      attributes: ["id", "name","description","website",
                     "email","date_of_application",
                     "feedback","industry",
                     "interview_received"],
